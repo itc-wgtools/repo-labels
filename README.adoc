@@ -1,0 +1,21 @@
+= repo-labels
+
+This is a script to automatically populate a respository with common labels for iTC use.
+
+== Usage
+
+. Create a new repository using 'itc-wgtools/New-iTC-Template' as a template
+. Create a new GitHub access token at https://github.com/settings/tokens
+. ./itc-labels coffeemaker/cPP 'abcd1234'
+
+To create the respository from a template, see https://help.github.com/en/articles/creating-a-repository-from-a-template[this help page].
+
+When creating the personal access token for this purpose, it only needs to have repo access for the scope. This token can be deleted once the script has been run.
+
+For the comman line parameters:
+
+* coffeemaker: the organization name
+* cPP: the name of the repository
+* abcd1234: the personal access token
+
+Note that the '/' is required in specifying the organization and repository.
