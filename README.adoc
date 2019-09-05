@@ -2,6 +2,8 @@
 
 This is a script to automatically populate a respository with common labels for iTC use.
 
+This script requires Ruby and the Octokit gem package to be installed.
+
 == Usage
 
 . Create a new repository using 'itc-wgtools/New-iTC-Template' as a template
