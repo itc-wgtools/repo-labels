@@ -2,12 +2,12 @@
 
 This is a script to automatically populate a respository with common labels for iTC use.
 
-This script requires Ruby and the Octokit gem package to be installed.
-
 == Usage
 
+. Install Ruby and the Octokit gem
 . Create a new repository using 'itc-wgtools/New-iTC-Template' as a template
 . Create a new GitHub access token at https://github.com/settings/tokens
+. Open the Command Prompt with Ruby (on Windows, if on Linux any terminal will do)
 . ./itc-labels coffeemaker/cPP 'abcd1234'
 
 To create the respository from a template, see https://help.github.com/en/articles/creating-a-repository-from-a-template[this help page].
