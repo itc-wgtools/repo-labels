@@ -44,6 +44,7 @@ RMLABELS = [
 LABELS = [
   {:label => 'Awaiting Priority', :color => 'FF9B1C', :description => 'Issue waiting for prioritization'},
   {:label => 'Awaiting Review', :color => '0BFF00', :description => 'Issue waiting for review'},
+  {:label => 'Parking Lot', :color => 'd876e3', :description => 'Issue parking lot for future consideration'},
   {:label => 'Interpretation', :color => 'F31606', :description => 'Request for Interpretation'},
   {:label => 'In Progress', :color => '54E261', :description => 'Issue being actively reviewed'},
   {:label => 'cPP', :color => '1E17A7', :description => 'cPP-related issue'},
