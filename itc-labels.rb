@@ -57,6 +57,7 @@ LABELS = [
   {:label => 'Urgency +2', :color => 'D3CBAA', :description => 'Maintenance priority +2'},
   {:label => 'Coupling +2', :color => 'D3CBAA', :description => 'Maintenance priority +2'},
   {:label => 'Effort +2', :color => 'D3CBAA', :description => 'Maintenance priority +2'},
+  {:label => 'Risk +2', :color => 'D3CBAA', :description => 'Maintenance priority +2'},
   {:label => 'Risk +1', :color => 'D3CBAA', :description => 'Maintenance priority +1'}
 ]
 
