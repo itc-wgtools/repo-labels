@@ -5,7 +5,7 @@ This is a script to automatically populate a respository with common labels for 
 == Usage
 
 . Install Ruby and the Octokit gem
-. Download itc-labels.rb from the repository
+. Download itc-labels.rb from the repository (for example save it to the folder where Ruby is installed)
 . Create a new repository using 'itc-wgtools/New-iTC-Template' as a template
 . Create a new GitHub access token at https://github.com/settings/tokens
 . Open the Command Prompt with Ruby (on Windows, if on Linux any terminal will do)
