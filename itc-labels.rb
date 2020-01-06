@@ -55,10 +55,10 @@ LABELS = [
   {:label => 'Applicability +1', :color => 'D3CBAA', :description => 'Maintenance priority +1'},
   {:label => 'Agreement +1', :color => 'D3CBAA', :description => 'Maintenance priority +1'},
   {:label => 'Urgency +2', :color => 'D3CBAA', :description => 'Maintenance priority +2'},
-  {:label => 'Coupling -2', :color => 'D3CBAA', :description => 'Maintenance priority +2'},
-  {:label => 'Effort -2', :color => 'D3CBAA', :description => 'Maintenance priority +2'},
-  {:label => 'Risk -2', :color => 'D3CBAA', :description => 'Maintenance priority +2'},
-  {:label => 'Risk -1', :color => 'D3CBAA', :description => 'Maintenance priority +1'}
+  {:label => 'Coupling -2', :color => 'D3CBAA', :description => 'Maintenance priority -2'},
+  {:label => 'Effort -2', :color => 'D3CBAA', :description => 'Maintenance priority -2'},
+  {:label => 'Risk -2', :color => 'D3CBAA', :description => 'Maintenance priority -2'},
+  {:label => 'Risk -1', :color => 'D3CBAA', :description => 'Maintenance priority -1'}
 ]
 
 client = Octokit::Client.new(:access_token => accesstoken)
